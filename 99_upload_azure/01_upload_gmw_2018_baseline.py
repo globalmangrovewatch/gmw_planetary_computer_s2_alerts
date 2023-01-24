@@ -4,7 +4,7 @@ import os
 import json
 import tqdm
 
-sas_info_file = "/Users/pete/Temp/upload_files_azure/azure_info.json"
+sas_info_file = "/home/jovyan/azure_info.json"
 
 with open(sas_info_file) as f:
     sas_token_info = json.load(f)
